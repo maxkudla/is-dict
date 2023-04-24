@@ -1,7 +1,6 @@
 import isDict from '../index';
 
 describe('check isDict', () => {
-
   test('should be false for a function', () => {
     expect(isDict(jest.fn())).toBeFalsy();
   });
@@ -12,7 +11,7 @@ describe('check isDict', () => {
     expect(isDict([])).toBeFalsy();
   });
   test('should be false for an string', () => {
-    expect(isDict("")).toBeFalsy();
+    expect(isDict('')).toBeFalsy();
   });
   test('should be false for an undefined', () => {
     expect(isDict(undefined)).toBeFalsy();

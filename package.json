@@ -1,6 +1,6 @@
 {
   "name": "is-dict",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Checks if value is the dict",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
